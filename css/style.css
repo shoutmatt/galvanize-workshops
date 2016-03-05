@@ -1,0 +1,490 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+    overflow-x: hidden;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+header img {
+	float: left;
+	height: 40px;
+	margin-top: 8px;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, .6);
+    border-color: rgba(0, 0, 0, .2);
+	border-radius: 0;
+	height: 60px;
+}
+
+
+.nav-button {
+	float: right;
+}
+.nav-button.btn {
+    border-color: #666;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color:#E2E2E2;
+	padding: 10px 16px;
+	margin-top: 8px;
+    border-radius: 6px;
+	line-height: 1.3333333;
+    font-size: 14px;
+	background-color: rgba(0, 0, 0, .1);
+	
+	transition: all 0.3s ease 0s;
+}
+
+#intro {
+  margin: 100px 0; 	
+}
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #fed136;
+}
+
+.header-space {
+	 margin-top: 70px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #f7901e;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #f7901e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.content-container img {
+ width: 100%;	
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+
+
+.btn {
+    border-color: #fff;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+	padding: 10px 16px;
+    border-radius: 6px;
+	line-height: 1.3333333;
+    font-size: 18px;
+	background-color: rgba(0, 0, 0, .1);
+	
+	transition: all 0.3s ease 0s;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+color: #fff;
+background-color: #f7901e;
+}
+
+
+.content-container .btn {
+    border-color: #f7901e;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+	padding: 6px 12px;
+    border-radius: 4px;
+	line-height: 1.3333333;
+    font-size: 14px;
+	background-color: #f7901e;
+	
+	transition: all 0.3s ease 0s;
+}
+
+.content-container .btn:hover,
+.content-container .btn:focus,
+.content-container .btn:active,
+.content-container .btn.active {
+color: #fff;
+background-color: #f7901e;
+}
+
+
+.content-container .schedule .btn {
+    border-color: #d9d9d9;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #858585;
+	padding: 6px 12px;
+	margin: 0;
+    border-radius: 4px;
+	line-height: 1.3333333;
+    font-size: 14px;
+	background-color: #fff;
+	transition: all 0.3s ease 0s;
+}
+
+.content-container .schedule .btn:hover,
+.content-container .schedule .btn:focus,
+.content-container .schedule .btn:active,
+.content-container .schedule .btn.active {
+color: #fff;
+background-color: #f7901e;
+border-color: #f7901e;
+}
+
+
+.content-container .schedule p {
+	margin: 0 !important;
+}
+
+
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header-bg.jpg);
+    background-position: 75% 50%;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+    header .intro-text {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+
+    header .intro-text .intro-lead-in {
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 72px;
+        line-height: 72px;
+    }
+
+
+.hero-cover {
+	background-color: rgba(0, 0, 0, .351);
+}
+
+
+.box {
+	margin: 0;
+	padding: 0;
+}
+
+.box.image {
+	min-height: 200px !important;
+	position: relative;
+}
+
+.box.image.photo1 {
+	height: 400px;
+	background: url('../img/members-photo.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+.box.image.photo2 {
+	height: 400px;
+	background: url('../img/students-couch.jpg') 50% 30% no-repeat;
+    background-size: cover;
+}
+.box.image.photo3 {
+	height: 400px;
+	background: url('../img/class-sf-edit.jpg') 50% 30% no-repeat;
+    background-size: cover;
+}
+.box.image.photo4 {
+	height: 400px;
+	background: url('../img/class-1200x800.jpg') 50% 50% no-repeat;
+    background-size: cover;
+}
+.box.image.photo5 {
+	height: 400px;
+	background: url('../img/kubik.jpg') 50% 40% no-repeat;
+    background-size: cover;
+}
+
+	
+.row.equal {
+	border-bottom: 1px solid rgba(0,0,0,.08);
+}
+
+.content {
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+
+.with-border {
+	border-right: 1px solid rgba(1,0,0,.08);
+}
+
+.with-border-top-bottom {
+border-top: 1px solid rgba(1,0,0,.08);
+border-bottom: 1px solid rgba(1,0,0,.08);
+
+}
+
+.content .content-container {
+	padding: 10rem 8rem 10rem 8rem;
+}
+
+.content .workshop-container {
+	padding: 2rem;
+	text-align:left;
+}
+
+.content .content-container p {
+	text-align: left;
+	margin-top: 2em;
+}
+
+.content-container .project:before{
+		content: '\f0ad';
+		font-family: "FontAwesome";
+		display: block;
+		font-size: 150%;
+		padding-bottom: 10px;
+		opacity: .25;
+	}
+	
+	.content-container .howto:before {
+		content: '\f05a';
+		font-family: "FontAwesome";
+		display: block;
+		font-size: 150%;
+		padding-bottom: 10px;
+		opacity: .25;
+	}
+	
+.content-container h2:after, 
+.content-container h3:after {
+    content: "";
+    width: 80px;
+    height: 1px;
+    background: rgba(0,0,0,.15);
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: -10px;
+	margin-bottom: .8em;
+}
+
+
+
+.orange-icons .content-container i {
+	font-size: 5rem;
+	color: rgba(247, 144, 30, 1);
+}
+
+.dark-icons .content-container i {
+	font-size: 4rem;
+	color: #8b8b8b;
+}
+
+.box.orange-icons .mini {
+	font-size: 2rem !important;
+	color: rgba(247, 144, 30, 1);
+	 vertical-align:top;
+	 padding-left: 4px;
+	 padding-top: 4px;
+}
+
+
+.content-container .card p {
+	font-size: 18px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	color: #777;
+	text-align:center;
+}
+
+.content-container .card {
+	height: 280px;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border-top: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-bottom: 2px solid #eee;
+	border-right: 1px solid #eee;
+	text-align:center;
+	
+}
+.content-container .card h6 {
+	text-transform: uppercase;
+	letter-spacing: .5px;
+}
+.content-container .card h6 a {
+	color: #777;
+}
+
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+
+
+
+.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+}
+.panel-heading a.collapsed:after {
+    content:"\e080";
+}
+
+hr {
+margin: 30px 0;	
+}
+
+hr .full {
+	margin: 0;	
+}
+
+
+
+/* Worksop Desc  */
+
+.workshop-desc .container {
+	margin-top: 100px; 
+	margin-bottom: 100px; 
+}
+
+.workshop-desc .container .row > h2 {
+	margin-bottom: 50px; 
+}
+
+.workshop-desc .web-people {
+	background-color: #f3f3f3;
+}
+
+.workshop-desc .web-people  h3:after {
+	height: 0px;
+}
+
+.workshop-desc .web-people .with-border,
+.workshop-desc .web-people .without-border {
+	padding: 50px; 
+}
+
+
+.gap {
+	margin: 50px 0; 
+}
+
+.gap-top {
+	margin-top: 100px; 
+}
+
+.gap-bottom {
+	margin-bottom: 100px; 
+}
+
+
+
+
+.rounded {
+border-radius: 10px;	
+}
+
